@@ -1,0 +1,38 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    color: inherit;
+    border: none;
+     background-color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+   
+}
+.links{
+    display: flex;
+    gap: 16px;
+    color: black;
+}
+.title{
+    padding:200px 32px;
+     font-weight: bolder;
+    font-size: 62px;
+}
+.title p{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.55);
+}
+.herosection{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.herosection img{
+    width:700px ;
+    height: 600px;
+    object-fit: cover;
+}
